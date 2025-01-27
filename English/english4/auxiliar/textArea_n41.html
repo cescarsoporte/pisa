@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+   <title>TextArea n1</title>
+
+   <script type="text/javascript">
+      window.onload = function(evt) {
+		var ct = document.getElementById("n1");
+        // cuando el campo de texto cambia, es decir hay un enter, entonces se envia el valor al padre y se realiza una actualizacion
+        ct.addEventListener("change", function(evt) {
+          window.parent.postMessage({ type: "set", name: "ta1", value: this.value }, '*');
+          window.parent.postMessage({ type: "update" }, '*');
+        });
+      }
+   </script>
+
+</head>
+<body BGCOLOR="ffffff" topmargig="0" leftmargin="0">
+
+<div align="center"
+<input type="text" id='unCampoDeTexto'>
+<textarea name="n1" cols="36" rows="3" id="n1"></textarea>
+</div>
+</body>
+</html>

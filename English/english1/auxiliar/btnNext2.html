@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+   <title>TextArea n1</title>
+   <script type="text/javascript">
+      window.onload = function(evt) {
+		var ct = document.getElementById("btn1");
+		
+		// cuando se haga clic en el botton, entonces se envia el valor al padre y se realiza una actualizacion
+        ct.addEventListener("click", function(evt) {
+          window.parent.parent.postMessage({ type: "set", name: "nx", value: 2 }, '*');
+          window.parent.parent.postMessage({ type: "update" }, '*');
+        });
+      }
+   </script>
+
+</head>
+<body BGCOLOR="ffffff" topmargig="0" leftmargin="0">
+
+<div align="center"
+<input type="button" id='unButton'>
+<button id="btn1" type="button" style="background-image: url('siguiente2.png');background-size: cover;background-repeat: no-repeat;width: 34px; height: 34px;"></button>
+</div>
+</body>
+</html>

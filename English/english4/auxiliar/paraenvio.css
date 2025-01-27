@@ -1,0 +1,97 @@
+.textonormal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+.textocampo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+.textpequecentro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.recuadro {
+	border: 1px solid #0066FF;
+	background-color: #A7b7FF;
+}
+.respuestas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px solid #E0EAFF;
+	background-color: #E0EAEE;
+}
+.respuestasb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	border: 1px solid #E0EAFF;
+	background-color: #E0EAEE;
+}
+
+.recuadrotabla {
+	border: 1px solid #aaaaaa;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	border: 1px solid #E0EAFF;
+	background-color: #E0EAEE;
+}
+.verdadfalso {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #cccccc;
+	
+}
+.recuadroestimulo {
+	border: 1px solid #A7B7FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+
+}
+	.titulo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+		border: 1px solid #A7B7FF;
+	background-color: #A7b7FF;
+}
+.confondoimag {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	border: 0px solid #8FE0E0;
+	background-color: rgba(255, 0, 0, 0);
+}

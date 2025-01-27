@@ -1,0 +1,58 @@
+.recuadro2 {
+	border: 1px solid #333333;
+}
+.recuadro1 {
+	background-color: #CCCCFF;
+	border: 1px solid #0000CC;
+}
+.texto2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+}
+.ttextopeque {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+}
+.textomas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+}
+.titulo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.titulo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0000CC;
+
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0000CC;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0000CC;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #336699;
+}

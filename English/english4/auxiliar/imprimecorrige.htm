@@ -1,0 +1,599 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Unidad CS601 Respuestas</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+      window.addEventListener("message", funcionQueManejaLosMensajes)
+      function funcionQueManejaLosMensajes(evt) {
+         var data = evt.data;
+
+          // se maneja un mensaje del tipo set
+		 if ((data.type === "set")&&(data.name==="npezminus")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("npezminus").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="npezi")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("npezi").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="nmoluscoi")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("nmoluscoi").value = data.value;
+			
+         } 
+		 else if ((data.type === "set")&&(data.name==="imagest1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("imagest1").src = data.value;
+			
+         } 
+		  else if ((data.type === "set")&&(data.name==="eimagest1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("eimagest1").value = data.value;
+			
+         } 
+		  else if ((data.type === "set")&&(data.name==="imagest2")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("imagest2").src = data.value;
+			
+         } 
+		 else if ((data.type === "set")&&(data.name==="eimagest2")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("eimagest2").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="imp13b")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im13b").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="imp13c")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im13c").value = data.value;
+			
+         }
+		  		 else if ((data.type === "set")&&(data.name==="imp14a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im14a").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="imp14b")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im14b").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="imp14c")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im14c").value = data.value;
+			
+         }
+		 else if ((data.type === "set")&&(data.name==="r11")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr11").value = data.value;
+			
+         }
+		 else if ((data.type === "set")&&(data.name==="r12")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr12").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="r13")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr13").value = data.value;
+			
+         }
+		  		  else if ((data.type === "set")&&(data.name==="r14")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr14").value = data.value;
+			
+         }
+		 else if ((data.type === "set")&&(data.name==="r21")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr21").value = data.value;
+			
+         }
+		 else if ((data.type === "set")&&(data.name==="r22")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr22").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="r23")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr23").value = data.value;
+			
+         }
+		  		  else if ((data.type === "set")&&(data.name==="r24")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr24").value = data.value;
+			
+         }		 
+			 else if ((data.type === "set")&&(data.name==="r31")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr31").value = data.value;
+			
+         }
+		 else if ((data.type === "set")&&(data.name==="r32")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr32").value = data.value;
+			
+         }
+		  else if ((data.type === "set")&&(data.name==="r33")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr33").value = data.value;
+			
+         }
+		  		  else if ((data.type === "set")&&(data.name==="r34")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr34").value = data.value;
+		}
+		  
+		 else if ((data.type === "set")&&(data.name==="c1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rc1").value = data.value;
+         }
+		 else if ((data.type === "set")&&(data.name==="imagcorrecta1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("imagcorrecta1").src = data.value;
+         }
+		 else if ((data.type === "set")&&(data.name==="eimagcorrecta1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("eimagcorrecta1").value = data.value;
+         }
+		 else if ((data.type === "set")&&(data.name==="imagpreg1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("imagpreg1").src = data.value;
+         }
+		 else if ((data.type === "set")&&(data.name==="eimagpreg1")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("eimagpreg1").value = data.value;
+         }
+		  else if ((data.type === "set")&&(data.name==="imp21a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im21a").value = data.value;
+			
+         }
+
+		  else if ((data.type === "set")&&(data.name==="imp22a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im22a").value = data.value;
+			
+         }
+
+		  else if ((data.type === "set")&&(data.name==="imp23a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im23a").value = data.value;
+			
+         }
+
+		  else if ((data.type === "set")&&(data.name==="imp24a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im24a").value = data.value;
+			
+         }
+
+		else if ((data.type === "set")&&(data.name==="correcta2")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rcorrecta2").value = data.value;
+			
+         }
+		else if ((data.type === "set")&&(data.name==="r2")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr2").value = data.value;
+			
+         }
+		else if ((data.type === "set")&&(data.name==="c2")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rc2").value = data.value;
+			
+         }
+		  
+		  	else if ((data.type === "set")&&(data.name==="imp31a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im31a").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp31b")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im31b").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp31c")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im31c").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp32a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im32a").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp32b")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im32b").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp32c")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im32c").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp33a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im33a").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp33b")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im33b").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp33c")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im33c").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp34a")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im34a").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp34b")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im34b").value = data.value;
+         }
+		  	else if ((data.type === "set")&&(data.name==="imp34c")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("im34c").value = data.value;
+         }
+		else if ((data.type === "set")&&(data.name==="correcta3")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rcorrecta3").value = data.value;
+			
+         }
+		else if ((data.type === "set")&&(data.name==="r3")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rr3").value = data.value;
+			
+         }
+		else if ((data.type === "set")&&(data.name==="c3")) {
+         // data.name es el nombre de la variable
+         // data.value es el valor de la variable
+            document.getElementById("rc3").value = data.value;
+			
+         }
+      }
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+function validar(){
+		var err;
+		if (cs601.alumno.value == "Escribe tu nombre y apellidos" || !cs601.alumno.value || cs601.alumno.value == " "){
+		   if(err){
+			    err = err + "\n\n - Debes introducir tu nombre y apellidos";
+			 }else{
+			    err = " - Debes introducir tu nombre y apellidos";
+			 }
+       cs601.alumno.focus();
+		}
+
+		
+		if(err){
+			alert(err+"\n\n");
+		}else{
+			ventana=1;
+			if (ventana) {
+				window.print();
+				window.parent.postMessage({ type: "set", name: "enviado", value: "1" }, '*');
+				window.parent.postMessage({ type: "update" }, '*');
+			}		
+		}
+}
+
+
+//-->
+</script>
+<script type="text/javascript">
+
+function selecciona_value(objInput) {
+
+    var valor_input = objInput.value;
+    var longitud = valor_input.length;
+
+    if (objInput.setSelectionRange) {
+        objInput.focus();
+        objInput.setSelectionRange (0, longitud);
+    }
+    else if (objInput.createTextRange) {
+        var range = objInput.createTextRange() ;
+        range.collapse(true);
+        range.moveEnd('character', longitud);
+        range.moveStart('character', 0);
+        range.select();
+    }
+}
+
+</script> 
+<link href="paraenvio.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	.fondotabla {
+	 background: url('../images/pisci1.png') no-repeat center center;
+        background-size:100% 100%;
+	}
+</style>
+
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="overflow:hidden">
+<form action="" method="post" name="cs601" target="_self" id="cs601">
+  <table width="100%" border="0" align="center" cellpadding="6" cellspacing="6">
+    <tr> 
+      <td colspan="2" valign="top" bgcolor="#A7b7FF" class="recuadro"> 
+        <p align="center" class="titulo"> 
+        Unidad CS601 Piscicultura sostenible</p>
+        <p align="center"> 
+          <input name="alumno" type="text" id="alumno" value="Escribe tu nombre y apellidos" size="40" onfocus="selecciona_value(this)">
+          &nbsp;
+		   <input name="CS601" type="button" id="CS601" value="Imprimir este documento" onClick="javascript:validar();" > 
+        </p></td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" class="recuadroestimulo"> 
+		  <p align="center"><strong>PISCICULTURA SOSTENIBLE</strong></p>     
+                <p align="justify">El diagrama muestra el diseño de una piscifactoría con tres grandes tanques. El agua salada filtrada se bombea desde el mar para luego pasar de un tanque a otro hasta que se devuelve al mar. El objetivo principal de la piscifactoría es criar
+          <input name="npezminus" id="npezminus" class="textocampo" style="width: 56px;" type="text">
+        de manera sostenible.
+        <ul>
+          <li>
+        <input name="npezi" id="npezi" class="textocampo" style="width: 62px; font-weight: bold;" type="text">
+          el pez que se cría. Su alimento preferido son las lombrices.</li>
+        </ul>
+        En la piscifactoría también se utilizan los siguientes organismos:<br>
+        <ul>
+          <li><strong>Microalgas:</strong> organismos microscópicos que solo necesitan luz y nutrientes para crecer.</li>
+          <li><strong>Lombrices:</strong> invertebrados que crecen muy rápidamente alimentándose de microalgas.</li>
+          <li><input name="nmoluscoi" id="nmoluscoi" class="textocampo" style="width: 72px; font-weight: bold;" type="text">organismos que se alimentan de microalgas y otros organismos pequeños del agua.</li>
+          <li><strong>Pastos marinos:</strong> pastos que absorben nutrientes y deshechos del agua.</li>
+        </ul>
+      </p>
+      <table width="80%" align="center" cellpadding="6" cellspacing="6">
+        <tr>
+      		<td>
+      		       <div align="center" >
+      		       <img src="../images/pisci0.png" width="369" height="260" alt=""/>
+      		       <input name="eimagest1" id="eimagest1" type="hidden">
+      		</div></td>
+      	</tr>
+      	<tr>
+      	  <td>
+      	  	<div align="center" >
+      	  	<img id="imagest2" src="../images/piscib00.png" width="360" height="61" alt=""/>
+      	  	<input name="eimagest2" id="eimagest2" type="hidden">
+</div></td>
+     </tr>
+      </table>
+        
+   	  </td>
+    </tr>
+    
+    <tr> 
+      <td class="textonormal"> <p align="justify"><strong>1. </strong>Los investigadores tienen que decidir en qué tanque se debe colocar cada organismo. Arrastra y suelta cada organismo en su correspondiente tanque para asegurar que se alimenta al pez y que el agua salada se devuelve intacta al mar. Las microalgas ya están colocadas en el tanque correcto.</p>
+        <table width="366px" height="184" border="0" align="center" cellpadding="0" cellspacing="1">
+          <tbody>
+            <tr>
+              <td width="33%" height="25" align="center" valign="middle">
+              </td>
+              <td height="25" align="center" valign="middle">
+              </td>
+              <td width="62%" height="25" align="center" valign="middle"></td>
+            </tr>
+            <tr>
+              <td width="33%" rowspan="3" align="center" valign="middle" bgcolor="#8FE0E0" class="recuadrotabla">
+                <input name="rr31" type="text" class="confondoimag" id="rr31" style="width: 76px; font-weight: bold;" ><br><br>
+                <input name="rr32" type="text" class="confondoimag" id="rr32" style="width: 76px; font-weight: bold;" ><br><br>
+                <input name="rr33" type="text" class="confondoimag" id="rr33" style="width: 76px; font-weight: bold;" ><br><br>
+                <input name="rr34" type="text" class="confondoimag" id="rr34" style="width: 76px; font-weight: bold;" >
+              </td>
+             <td width="5%" height="65" align="center" valign="middle" class="textonormal">&nbsp;</td>
+              <td align="center" valign="middle" class="recuadrotabla">
+               <table width="100%" border="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td height="60" align="center" valign="middle" bgcolor="#8FE0E0">
+      <img src="../images/microalgasp.png" width="39" height="43" alt=""/>
+      	<input name="eimagpreg1" id="eimagpreg1" type="hidden">
+      </td>
+      <td align="center" valign="middle" bgcolor="#8FE0E0">
+               <input name="rr11" type="text" class="confondoimag" id="rr11" style="width: 76px; font-weight: bold;" >&nbsp;&nbsp;
+                <input name="rr12" type="text" class="confondoimag" id="rr12" style="width: 76px; font-weight: bold;" ><br>
+                <input name="rr13" type="text" class="confondoimag" id="rr13" style="width: 76px; font-weight: bold;" >&nbsp;&nbsp;
+              <input name="rr14" type="text" class="confondoimag" id="rr14" style="width: 76px; font-weight: bold;" >
+              </td>
+    </tr>
+  </tbody>
+</table>
+
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">&nbsp;</td>
+              <td align="center" valign="middle">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" class="textonormal">
+
+              </td>
+              <td height="60" align="center" valign="middle" bgcolor="#8FE0E0" class="recuadrotabla">              	<input name="rr21" type="text" class="confondoimag" id="rr21" style="width: 76px; font-weight: bold;" >&nbsp;
+                <input name="rr22" type="text" class="confondoimag" id="rr22" style="width: 76px; font-weight: bold;" ><br>
+                <input name="rr23" type="text" class="confondoimag" id="rr23" style="width: 76px; font-weight: bold;" >&nbsp;
+                <input name="rr24" type="text" class="confondoimag" id="rr24" style="width: 76px; font-weight: bold;" ></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>&nbsp;</p>
+      </td>
+      <td width="25%" align="center" valign="middle" bgcolor="#e0eaee" class="respuestas"> 
+        <p> 
+          <input name="rc1" type="text" id="rc1" class="titulo" size="12">
+        </p>
+		
+      </td>
+    </tr>
+    <tr>
+      <td class="textonormal">
+      	        <table width="100%" border="0" cellpadding="6" cellspacing="0" bgcolor="#e0eaee" class="respuestas">
+          <tr>
+            <td><p><font size="2" face="Arial, Helvetica, sans-serif">
+               RESPUESTA CORRECTA:</font>
+               
+            <div align="center">
+            <img id='imagcorrecta1' src="../images/pisci00.png" width="340" height="179" alt=""/>
+            <input name="eimagcorrecta1" type="hidden" id="eimagcorrecta1">
+            </div></p></td>
+          </tr>
+        </table>
+
+      </td>
+      <td align="center" valign="middle" class="respuestas">&nbsp;</td>
+    </tr>  
+
+    <tr> 
+      <td class="textonormal" valign="top"> <p><strong>2.</strong> 
+          Los investigadores se han dado cuenta de que el agua que se devuelve al mar contiene una gran cantidad de nutrientes. <br>
+          De las siguientes opciones, ¿qué hay que añadir a la piscifactoría para atenuar este problema? </p>
+        <blockquote>
+          <p><strong>1)</strong>
+            <input name="im21a" class="textocampo" id="im21a" size="40" type="text"><br>
+          </p>
+          <p><strong>2)</strong>
+            <input name="im22a" class="textocampo" id="im22a" size="40" type="text"><br>
+          </p>
+          <p><strong>3)</strong>
+            <input name="im23a" class="textocampo" id="im23a" size="40" type="text"><br>
+          </p>
+          <p><strong>4)</strong>
+            <input name="im24a" class="textocampo" id="im24a" size="40" type="text"><br>
+          </p>
+        </blockquote>
+        <table class="respuestas" bgcolor="#e0eaee" border="0" cellpadding="6" cellspacing="0" width="100%">
+          <tbody><tr>
+            <td><p><font face="Arial, Helvetica, sans-serif" size="2">RESPUESTA 
+                CORRECTA: <strong>Opción</strong>
+                <input name="rcorrecta2" class="respuestasb" id="rcorrecta2" size="1" type="text">
+				</font></p>
+			</td>
+          </tr>
+        </tbody></table>
+	  </td>
+      <td class="respuestas" align="center" bgcolor="#e0eaee" valign="middle" width="25%"> 
+        <p>RESPUESTA</p>
+        <p> 
+          <input name="rr2" class="titulo" id="rr2" size="1" type="text">
+        </p>
+        <p>
+          <input name="rc2" id="rc2" class="titulo" size="12" type="text">
+        </p>
+	  </td>
+    </tr>
+    
+        <tr> 
+      <td class="textonormal" valign="top"> <p><strong>3.</strong> 
+          ¿Qué proceso mejoraría la sostenibilidad de la piscifactoría? 
+          </p>
+        <blockquote>
+          <p><strong>1)&nbsp;</strong>
+            <input name="im31a" class="textocampo" id="im31a" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im31b" class="textocampo" id="im31b" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im31c" class="textocampo" id="im31c" size="60" type="text">
+          </p>
+          <p><strong>2)&nbsp;</strong>
+            <input name="im32a" class="textocampo" id="im32a" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im32b" class="textocampo" id="im32b" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im32c" class="textocampo" id="im32c" size="60" type="text">
+          </p>
+          <p><strong>3)&nbsp;</strong>
+            <input name="im33a" class="textocampo" id="im33a" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im33b" class="textocampo" id="im33b" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im33c" class="textocampo" id="im33c" size="60" type="text">
+          </p>
+          <p><strong>4)&nbsp;</strong>
+            <input name="im34a" class="textocampo" id="im34a" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im34b" class="textocampo" id="im34b" size="60" type="text">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="im34c" class="textocampo" id="im34c" size="60" type="text">
+          </p>
+        </blockquote>
+        <table class="respuestas" bgcolor="#e0eaee" border="0" cellpadding="6" cellspacing="0" width="100%">
+          <tbody><tr>
+            <td><p><font face="Arial, Helvetica, sans-serif" size="2">RESPUESTA 
+                CORRECTA: <strong>Opción</strong>
+                <input name="rcorrecta3" class="respuestasb" id="rcorrecta3" size="1" type="text">
+				</font></p>
+			</td>
+          </tr>
+        </tbody></table>
+	  </td>
+      <td class="respuestas" align="center" bgcolor="#e0eaee" valign="middle" width="25%"> 
+        <p>RESPUESTA</p>
+        <p> 
+          <input name="rr3" class="titulo" id="rr3" size="1" type="text">
+        </p>
+        <p>
+          <input name="rc3" id="rc3" class="titulo" size="12" type="text">
+        </p>
+	  </td>
+    </tr>
+
+  </table>
+</form>
+</body>
+</html>
